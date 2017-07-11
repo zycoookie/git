@@ -1,9 +1,10 @@
 public class Main{
-    public Main(){
-
-    }
 
     public static void main(String[] args) {
-        System.out.println("this is a Java class");
+        println(args[0]);
+    }
+
+    public static void println(String command){
+        System.out.println(command);
     }
 }
